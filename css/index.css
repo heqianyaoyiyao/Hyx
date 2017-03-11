@@ -1,0 +1,159 @@
+/*
+* @Author: hyx
+* @Date:   2017-03-11 10:17:27
+* @Last Modified by:   hyx
+* @Last Modified time: 2017-03-11 16:51:18
+*/
+html,
+body,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+img,
+input,
+span {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+img,
+input {
+    border: 0
+}
+li{
+	list-style: none;
+}
+
+/* 导航条开始 */
+.navbar{
+	background-color: #333;
+}
+.container-fluid .navbar-header .nav_home{
+	font-size: 20px;
+	color: #fff;
+	font-size: 34px;
+}
+.hyx-fluid{
+	height: 70px;
+}
+.hyx-navbar-header,.hyx-navbar-nav{
+	margin-top: 15px;
+}
+.hyx-navbar-nav{
+	float: right;
+	/* margin-right: 15px; */
+}
+.hyx-navbar-nav a{
+	font-size: 24px;
+}
+.navbar-default .navbar-nav > li > a{
+	color: #ff9900;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color: #fff;
+}
+.navbar{
+	margin-bottom: 0px;	/*默认有20px下外边距*/
+}
+
+.hyx-fluid .navbar-collapse{
+	border:0;
+}
+/* 导航条结束 */
+
+
+/* 个人信息开始 */
+.hyx_banner{
+	background-color: #eee;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+	margin-top: 70px;
+}
+.hyx_banner_left{
+	float: left;
+}
+.hyx_banner_right{
+	float: right;
+}
+.hyx_banner_left,.hyx_banner_right{
+	height: 100%;
+	width: 25%;
+	/* background-color: red; */
+	margin: 40px 0;
+	overflow: hidden;
+}
+.hyx_banner_left > .header_img{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background: url(../img/header.png) no-repeat center  30%;
+	margin:18px auto;
+
+}
+.hyx_banner_right > .tools_img{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background: url(../img/tools.png) no-repeat center  30%;
+	margin:18px auto;
+
+}
+.hyx_banner>.hyx_banner_left li{
+	padding: 18px;
+	font-size: 16px;
+	text-align: center;
+}
+.hyx_banner_right li{
+	padding: 18px;
+	font-size: 16px;
+}
+.hyx_banner>.hyx_banner_left li span,.hyx_banner_right li span{
+	font-weight: bold;
+}
+
+.hyx_container{
+	width: 50%;
+	height: 600px;
+	/* background-color: red; */
+	float: left;
+	background: url(../img/job.jpg);
+	background-size:100% 100%;
+}
+/* 个人信息结束 */
+
+
+/* 工作经历开始 */
+
+/* 工作经历开始 */
+.work{
+	width: 100%;
+	height: 500px;
+	/* background-color: yellow; */
+	padding-top: 50px;
+	/* box-sizing:border-box; */
+}
+.work_container{
+	width: 80%;
+	height: 480px;
+	margin: 0 auto;
+	/* background-color: red; */
+}
+.work_container>.work_title{
+	padding-left: 10px;
+	border-left: 4px solid #ff9900;
+}
+.work_container>.work_title>h2{
+	font-size: 36px;
+}
