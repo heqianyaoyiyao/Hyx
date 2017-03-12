@@ -2,7 +2,7 @@
 * @Author: hyx
 * @Date:   2017-03-11 10:17:27
 * @Last Modified by:   hyx
-* @Last Modified time: 2017-03-11 16:51:18
+* @Last Modified time: 2017-03-12 10:28:02
 */
 html,
 body,
@@ -116,7 +116,7 @@ li{
 	text-align: center;
 }
 .hyx_banner_right li{
-	padding: 18px;
+	padding: 10px;
 	font-size: 16px;
 }
 .hyx_banner>.hyx_banner_left li span,.hyx_banner_right li span{
