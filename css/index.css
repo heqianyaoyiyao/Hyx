@@ -2,7 +2,7 @@
 * @Author: hyx
 * @Date:   2017-03-11 10:17:27
 * @Last Modified by:   hyx
-* @Last Modified time: 2017-03-12 10:28:02
+* @Last Modified time: 2017-03-13 16:18:17
 */
 html,
 body,
@@ -146,14 +146,50 @@ li{
 }
 .work_container{
 	width: 80%;
-	height: 480px;
+	/* height: 480px; */
 	margin: 0 auto;
 	/* background-color: red; */
 }
 .work_container>.work_title{
 	padding-left: 10px;
 	border-left: 4px solid #ff9900;
+	margin-bottom: 50px;
 }
 .work_container>.work_title>h2{
 	font-size: 36px;
 }
+
+.swiper-container{
+    width: 80%px;
+    height: 300px;
+}  
+.swiper-slide{
+	/* text-align: center; */
+	word-wrap: break-word;
+}
+
+.prev,.next{
+	opacity: 0.1;
+}
+.swiper-slide h3{
+	padding: 0 8%;
+	color: #ff9900;
+	margin-bottom: 10px;
+}
+.swiper-slide p {
+	padding:0 12%;
+	font-size: 16px;
+	line-height: 28px;
+	/* height: 28px; */
+}
+
+
+
+
+
+
+
+
+
+
+
