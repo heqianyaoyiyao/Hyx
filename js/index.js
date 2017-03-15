@@ -2,7 +2,7 @@
 * @Author: hyx
 * @Date:   2017-03-11 10:17:35
 * @Last Modified by:   hyx
-* @Last Modified time: 2017-03-13 12:36:21
+* @Last Modified time: 2017-03-13 21:25:37
 */
 
 window.onload = function(){
@@ -31,27 +31,27 @@ window.onload = function(){
 		var mySwiper = new Swiper ('.swiper-container', {
 			    // direction: 'vertical',
 			    
-			   effect : 'flip',
-				flip: {
-				            slideShadows : true,
-				            limitRotation : true,
-				        },
-				autoplay : 5000,
-			    loop: true,
-			     autoHeight: true,
-			    
-			    // 如果需要分页器
-			    pagination: '.swiper-pagination',
-			    
-			    // 如果需要前进后退按钮
-			    nextButton: '.swiper-button-next',
-			    prevButton: '.swiper-button-prev',
-			    
-			    // 如果需要滚动条
-			    // scrollbar: '.swiper-scrollbar',
-			  })   
+		   	effect : 'flip',
+			flip: {
+			        slideShadows : true,
+			        limitRotation : true,
+			       },
+			autoplay : 5000,
+		    loop: true,
+		    autoHeight: true,
+		    
+		    // 如果需要分页器
+		    pagination: '.swiper-pagination',
+		    
+		    // 如果需要前进后退按钮
+		    nextButton: '.swiper-button-next',
+		    prevButton: '.swiper-button-prev',
+		    
+		    // 如果需要滚动条
+		    // scrollbar: '.swiper-scrollbar',
+		})   
 }
 
-// console.log($(".hyx_banner li").css("padding"));
-// $(".hyx_banner li").css("padding","10px");
-// console.log($(".hyx_banner li").css("padding"));
+
+
+
