@@ -2,7 +2,7 @@
 * @Author: hyx
 * @Date:   2017-03-11 10:17:27
 * @Last Modified by:   hyx
-* @Last Modified time: 2017-03-15 17:35:44
+* @Last Modified time: 2017-03-16 14:31:50
 */
 html,
 body,
@@ -185,7 +185,7 @@ li{
 /* 技能开始 */
 .skill{
 	width: 100%;
-	height: 500px;
+	/* height: 500px; */
 	/* background-color: yellow; */
 	padding-top: 50px;
 	/* box-sizing:border-box; */
@@ -213,6 +213,7 @@ li{
 }
 .skill_detail  .name{
 	position: absolute;
+	font-size: 1rem;
 }
 .skill_detail .pro{
 	display: inline-block;
@@ -269,7 +270,36 @@ li{
 	width: 20%;
 }
 
-
+/* footer开始 */
+footer{
+	width: 100%;
+	/* height: 300px; */
+	background-color: #333;
+	padding: 4% 0;
+}
+.footer_container{
+	/* height: 300px; */
+	width: 90%;
+	margin: 0 auto;
+	/* background-color: yellow; */
+	clear: both;
+}
+.footer_title{
+	color: #aaa;
+	font-size: 1.6rem;
+}
+.footer_container ul{
+	display: inline-block;
+	margin: 4%;
+	font-size: 1rem;
+}
+.footer_container ul li{
+	padding: 0.3rem 0; 
+}
+.footer_container ul li a{
+	color:#ccc;
+}
+/* footer结束 */
 
 
 
